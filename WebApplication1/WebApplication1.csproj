@@ -97,7 +97,13 @@
     <Content Include="args.js" />
     <Content Include="async-tasks.js" />
     <Content Include="async.js" />
+    <Content Include="blank.aspx" />
+    <Content Include="bootstrap.css" />
+    <Content Include="bootstrap.js" />
+    <Content Include="bootstrap.min.css" />
+    <Content Include="bootstrap.min.js" />
     <Content Include="browser-sync.js" />
+    <Content Include="buttons.aspx" />
     <Content Include="cli-info.js" />
     <Content Include="cli-options.js" />
     <Content Include="cli-template.js" />
@@ -113,23 +119,34 @@
     <Content Include="file-utils.js" />
     <Content Include="file-watcher.js" />
     <Content Include="flot-data.js" />
+    <Content Include="flot.aspx" />
+    <Content Include="forms.aspx" />
+    <Content Include="glyphicons-halflings-regular.svg" />
+    <Content Include="grid.aspx" />
     <Content Include="help.txt" />
     <Content Include="homepage.aspx" />
     <Content Include="hooks.js" />
     <Content Include="http-protocol.js" />
+    <Content Include="icons.aspx" />
+    <Content Include="Index.aspx" />
     <Content Include="index.js" />
     <Content Include="init.js" />
     <Content Include="internal-events.js" />
     <Content Include="lodash.custom.js" />
     <Content Include="logger.js" />
+    <Content Include="login.aspx" />
     <Content Include="morris-data.js" />
+    <Content Include="morris.aspx" />
+    <Content Include="notifications.aspx" />
     <Content Include="notify.js" />
     <Content Include="options.js" />
+    <Content Include="package.js" />
     <Content Include="packages.config" />
     <Content Include="ApplicationInsights.config">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
     <Content Include="mixins.less" />
+    <Content Include="panels-wells.aspx" />
     <Content Include="pause.js" />
     <Content Include="plugins.js" />
     <Content Include="public-utils.js" />
@@ -140,7 +157,9 @@
     <Content Include="socket.io.min.1.6.0.js" />
     <Content Include="sockets.js" />
     <Content Include="stream.js" />
+    <Content Include="tables.aspx" />
     <Content Include="tunnel.js" />
+    <Content Include="typography.aspx" />
     <Content Include="utils.js" />
     <Content Include="variables.less" />
     <Content Include="browser-sync" />
@@ -165,6 +184,14 @@
     <Content Include="script-tags.tmpl" />
     <Content Include="yargs.js" />
     <Content Include="completion.sh.hbs" />
+    <Content Include=".npmignore" />
+    <Content Include=".travis.yml" />
+    <Content Include="bower.json" />
+    <Content Include="History.md" />
+    <Content Include="glyphicons-halflings-regular.eot" />
+    <Content Include="glyphicons-halflings-regular.ttf" />
+    <Content Include="glyphicons-halflings-regular.woff" />
+    <Content Include="glyphicons-halflings-regular.woff2" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -185,17 +212,69 @@
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="blank.aspx.cs">
+      <DependentUpon>blank.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="buttons.aspx.cs">
+      <DependentUpon>buttons.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="flot.aspx.cs">
+      <DependentUpon>flot.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="forms.aspx.cs">
+      <DependentUpon>forms.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="grid.aspx.cs">
+      <DependentUpon>grid.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
     <Compile Include="homepage.aspx.cs">
       <DependentUpon>homepage.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
+    <Compile Include="icons.aspx.cs">
+      <DependentUpon>icons.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Index.aspx.cs">
+      <DependentUpon>Index.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="login.aspx.cs">
+      <DependentUpon>login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="morris.aspx.cs">
+      <DependentUpon>morris.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="notifications.aspx.cs">
+      <DependentUpon>notifications.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="panels-wells.aspx.cs">
+      <DependentUpon>panels-wells.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="tables.aspx.cs">
+      <DependentUpon>tables.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
     <Compile Include="test.aspx.cs">
       <DependentUpon>test.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="test.aspx.designer.cs">
       <DependentUpon>test.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="typography.aspx.cs">
+      <DependentUpon>typography.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
     </Compile>
   </ItemGroup>
   <PropertyGroup>
