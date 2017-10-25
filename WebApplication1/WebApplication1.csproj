@@ -94,11 +94,77 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="args.js" />
+    <Content Include="async-tasks.js" />
+    <Content Include="async.js" />
+    <Content Include="browser-sync.js" />
+    <Content Include="cli-info.js" />
+    <Content Include="cli-options.js" />
+    <Content Include="cli-template.js" />
+    <Content Include="command.init.js" />
+    <Content Include="command.recipe.js" />
+    <Content Include="command.reload.js" />
+    <Content Include="command.start.js" />
+    <Content Include="config.js" />
+    <Content Include="connect-utils.js" />
+    <Content Include="default-config.js" />
+    <Content Include="exit.js" />
+    <Content Include="file-event-handler.js" />
+    <Content Include="file-utils.js" />
+    <Content Include="file-watcher.js" />
+    <Content Include="flot-data.js" />
+    <Content Include="help.txt" />
     <Content Include="homepage.aspx" />
+    <Content Include="hooks.js" />
+    <Content Include="http-protocol.js" />
+    <Content Include="index.js" />
+    <Content Include="init.js" />
+    <Content Include="internal-events.js" />
+    <Content Include="lodash.custom.js" />
+    <Content Include="logger.js" />
+    <Content Include="morris-data.js" />
+    <Content Include="notify.js" />
+    <Content Include="options.js" />
     <Content Include="packages.config" />
     <Content Include="ApplicationInsights.config">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
+    <Content Include="mixins.less" />
+    <Content Include="pause.js" />
+    <Content Include="plugins.js" />
+    <Content Include="public-utils.js" />
+    <Content Include="reload.js" />
+    <Content Include="resume.js" />
+    <Content Include="sb-admin-2.less" />
+    <Content Include="snippet.js" />
+    <Content Include="socket.io.min.1.6.0.js" />
+    <Content Include="sockets.js" />
+    <Content Include="stream.js" />
+    <Content Include="tunnel.js" />
+    <Content Include="utils.js" />
+    <Content Include="variables.less" />
+    <Content Include="browser-sync" />
+    <Content Include="browser-sync.cmd" />
+    <Content Include="gulp" />
+    <Content Include="gulp.cmd" />
+    <Content Include="CHANGELOG.md" />
+    <Content Include="LICENSE" />
+    <Content Include="package.json" />
+    <Content Include="README.md" />
+    <Content Include="opts.init.json" />
+    <Content Include="opts.recipe.json" />
+    <Content Include="opts.reload.json" />
+    <Content Include="opts.start.json" />
+    <Content Include="browsersync.pfx" />
+    <Content Include="gen.sh" />
+    <Content Include="server.crt" />
+    <Content Include="server.csr" />
+    <Content Include="server.key" />
+    <Content Include="connector.tmpl" />
+    <Content Include="script-tags-simple.tmpl" />
+    <Content Include="script-tags.tmpl" />
+    <Content Include="yargs.js" />
+    <Content Include="completion.sh.hbs" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -107,8 +173,14 @@
     </None>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="sb-admin-2.css" />
+    <Content Include="sb-admin-2.js" />
+    <Content Include="sb-admin-2.min.css" />
+    <Content Include="sb-admin-2.min.js" />
     <Content Include="scripts\ai.0.15.0-build58334.js" />
     <Content Include="scripts\ai.0.15.0-build58334.min.js" />
+    <Content Include="Sensorfypj.mdf" />
+    <Content Include="Sensorfypj_log.ldf" />
     <Content Include="test.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
