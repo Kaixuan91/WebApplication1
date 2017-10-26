@@ -278,8 +278,7 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="dist\" />
-    <Folder Include="vendor\" />
+    <WCFMetadata Include="Service References\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
