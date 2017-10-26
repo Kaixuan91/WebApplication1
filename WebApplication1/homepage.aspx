@@ -14,16 +14,16 @@
     <title>SB Admin 2 - Bootstrap Admin Theme</title>
 
     <!-- Bootstrap Core CSS -->
-    <link href="../vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="bootstrap.min.css" rel="stylesheet">
 
     <!-- MetisMenu CSS -->
-    <link href="../vendor/metisMenu/metisMenu.min.css" rel="stylesheet">
+    <link href="metisMenu.min.css" rel="stylesheet">
 
     <!-- Custom CSS -->
-    <link href="../dist/css/sb-admin-2.css" rel="stylesheet">
+    <link href="sb-admin-2.css" rel="stylesheet">
 
     <!-- Morris Charts CSS -->
-    <link href="../vendor/morrisjs/morris.css" rel="stylesheet">
+    <link href="morris.css" rel="stylesheet">
 
     <!-- Custom Fonts -->
     <link href="../vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
@@ -41,492 +41,67 @@
 
     <div id="wrapper">
 
-        <!-- Navigation -->
-        <nav class="navbar navbar-default navbar-static-top" role="navigation" style="margin-bottom: 0">
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <a class="navbar-brand" href="../pages/Index.aspx">Index</a>
-            </div>
-            <!-- /.navbar-header -->
-
-            <ul class="nav navbar-top-links navbar-right">
-                <li class="dropdown">
-                    <a class="dropdown-toggle" data-toggle="dropdown" href="#">
-                        <i class="fa fa-envelope fa-fw"></i> <i class="fa fa-caret-down"></i>
-                    </a>
-                    <ul class="dropdown-menu dropdown-messages">
-                        <li>
-                            <a href="#">
-                                <div>
-                                    <strong>John Smith</strong>
-                                    <span class="pull-right text-muted">
-                                        <em>Yesterday</em>
-                                    </span>
-                                </div>
-                                <div>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque eleifend...</div>
-                            </a>
-                        </li>
-                        <li class="divider"></li>
-                        <li>
-                            <a href="#">
-                                <div>
-                                    <strong>John Smith</strong>
-                                    <span class="pull-right text-muted">
-                                        <em>Yesterday</em>
-                                    </span>
-                                </div>
-                                <div>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque eleifend...</div>
-                            </a>
-                        </li>
-                        <li class="divider"></li>
-                        <li>
-                            <a href="#">
-                                <div>
-                                    <strong>John Smith</strong>
-                                    <span class="pull-right text-muted">
-                                        <em>Yesterday</em>
-                                    </span>
-                                </div>
-                                <div>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque eleifend...</div>
-                            </a>
-                        </li>
-                        <li class="divider"></li>
-                        <li>
-                            <a class="text-center" href="#">
-                                <strong>Read All Messages</strong>
-                                <i class="fa fa-angle-right"></i>
-                            </a>
-                        </li>
-                    </ul>
-                    <!-- /.dropdown-messages -->
-                </li>
-                <!-- /.dropdown -->
-                <li class="dropdown">
-                    <a class="dropdown-toggle" data-toggle="dropdown" href="#">
-                        <i class="fa fa-tasks fa-fw"></i> <i class="fa fa-caret-down"></i>
-                    </a>
-                    <ul class="dropdown-menu dropdown-tasks">
-                        <li>
-                            <a href="#">
-                                <div>
-                                    <p>
-                                        <strong>Task 1</strong>
-                                        <span class="pull-right text-muted">40% Complete</span>
-                                    </p>
-                                    <div class="progress progress-striped active">
-                                        <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 40%">
-                                            <span class="sr-only">40% Complete (success)</span>
-                                        </div>
-                                    </div>
-                                </div>
-                            </a>
-                        </li>
-                        <li class="divider"></li>
-                        <li>
-                            <a href="#">
-                                <div>
-                                    <p>
-                                        <strong>Task 2</strong>
-                                        <span class="pull-right text-muted">20% Complete</span>
-                                    </p>
-                                    <div class="progress progress-striped active">
-                                        <div class="progress-bar progress-bar-info" role="progressbar" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100" style="width: 20%">
-                                            <span class="sr-only">20% Complete</span>
-                                        </div>
-                                    </div>
-                                </div>
-                            </a>
-                        </li>
-                        <li class="divider"></li>
-                        <li>
-                            <a href="#">
-                                <div>
-                                    <p>
-                                        <strong>Task 3</strong>
-                                        <span class="pull-right text-muted">60% Complete</span>
-                                    </p>
-                                    <div class="progress progress-striped active">
-                                        <div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%">
-                                            <span class="sr-only">60% Complete (warning)</span>
-                                        </div>
-                                    </div>
-                                </div>
-                            </a>
-                        </li>
-                        <li class="divider"></li>
-                        <li>
-                            <a href="#">
-                                <div>
-                                    <p>
-                                        <strong>Task 4</strong>
-                                        <span class="pull-right text-muted">80% Complete</span>
-                                    </p>
-                                    <div class="progress progress-striped active">
-                                        <div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 80%">
-                                            <span class="sr-only">80% Complete (danger)</span>
-                                        </div>
-                                    </div>
-                                </div>
-                            </a>
-                        </li>
-                        <li class="divider"></li>
-                        <li>
-                            <a class="text-center" href="#">
-                                <strong>See All Tasks</strong>
-                                <i class="fa fa-angle-right"></i>
-                            </a>
-                        </li>
-                    </ul>
-                    <!-- /.dropdown-tasks -->
-                </li>
-                <!-- /.dropdown -->
-                <li class="dropdown">
-                    <a class="dropdown-toggle" data-toggle="dropdown" href="#">
-                        <i class="fa fa-bell fa-fw"></i> <i class="fa fa-caret-down"></i>
-                    </a>
-                    <ul class="dropdown-menu dropdown-alerts">
-                        <li>
-                            <a href="#">
-                                <div>
-                                    <i class="fa fa-comment fa-fw"></i> New Comment
-                                    <span class="pull-right text-muted small">4 minutes ago</span>
-                                </div>
-                            </a>
-                        </li>
-                        <li class="divider"></li>
-                        <li>
-                            <a href="#">
-                                <div>
-                                    <i class="fa fa-twitter fa-fw"></i> 3 New Followers
-                                    <span class="pull-right text-muted small">12 minutes ago</span>
-                                </div>
-                            </a>
-                        </li>
-                        <li class="divider"></li>
-                        <li>
-                            <a href="#">
-                                <div>
-                                    <i class="fa fa-envelope fa-fw"></i> Message Sent
-                                    <span class="pull-right text-muted small">4 minutes ago</span>
-                                </div>
-                            </a>
-                        </li>
-                        <li class="divider"></li>
-                        <li>
-                            <a href="#">
-                                <div>
-                                    <i class="fa fa-tasks fa-fw"></i> New Task
-                                    <span class="pull-right text-muted small">4 minutes ago</span>
-                                </div>
-                            </a>
-                        </li>
-                        <li class="divider"></li>
-                        <li>
-                            <a href="#">
-                                <div>
-                                    <i class="fa fa-upload fa-fw"></i> Server Rebooted
-                                    <span class="pull-right text-muted small">4 minutes ago</span>
-                                </div>
-                            </a>
-                        </li>
-                        <li class="divider"></li>
-                        <li>
-                            <a class="text-center" href="#">
-                                <strong>See All Alerts</strong>
-                                <i class="fa fa-angle-right"></i>
-                            </a>
-                        </li>
-                    </ul>
-                    <!-- /.dropdown-alerts -->
-                </li>
-                <!-- /.dropdown -->
-                <li class="dropdown">
-                    <a class="dropdown-toggle" data-toggle="dropdown" href="#">
-                        <i class="fa fa-user fa-fw"></i> <i class="fa fa-caret-down"></i>
-                    </a>
-                    <ul class="dropdown-menu dropdown-user">
-                        <li><a href="#"><i class="fa fa-user fa-fw"></i> User Profile</a>
-                        </li>
-                        <li><a href="#"><i class="fa fa-gear fa-fw"></i> Settings</a>
-                        </li>
-                        <li class="divider"></li>
-                        <li><a href="login.aspx"><i class="fa fa-sign-out fa-fw"></i> Logout</a>
-                        </li>
-                    </ul>
-                    <!-- /.dropdown-user -->
-                </li>
-                <!-- /.dropdown -->
-            </ul>
-            <!-- /.navbar-top-links -->
-
-            <div class="navbar-default sidebar" role="navigation">
-                <div class="sidebar-nav navbar-collapse">
-                    <ul class="nav" id="side-menu">
-                        <li class="sidebar-search">
-                            <div class="input-group custom-search-form">
-                                <input type="text" class="form-control" placeholder="Search...">
-                                <span class="input-group-btn">
-                                <button class="btn btn-default" type="button">
-                                    <i class="fa fa-search"></i>
-                                </button>
-                            </span>
-                            </div>
-                            <!-- /input-group -->
-                        </li>
-                        <li>
-                            <a href="../pages/Index.aspx"><i class="fa fa-dashboard fa-fw"></i> Dashboard</a>
-                        </li>
-                        <li>
-                            <a href="#"><i class="fa fa-bar-chart-o fa-fw"></i> Charts<span class="fa arrow"></span></a>
-                            <ul class="nav nav-second-level">
-                                <li>
-                                    <a href="../pages/flot.aspx">Flot Charts</a>
-                                </li>
-                                <li>
-                                    <a href="../pages/morris.aspx">Morris.js Charts</a>
-                                </li>
-                            </ul>
-                            <!-- /.nav-second-level -->
-                        </li>
-                        <li>
-                            <a href="../pages/tables.aspx"><i class="fa fa-table fa-fw"></i> Tables</a>
-                        </li>
-                        <li>
-                            <a href="../pages/forms.aspx"><i class="fa fa-edit fa-fw"></i> Forms</a>
-                        </li>
-                        <li>
-                            <a href="#"><i class="fa fa-wrench fa-fw"></i> UI Elements<span class="fa arrow"></span></a>
-                            <ul class="nav nav-second-level">
-                                <li>
-                                    <a href="../pages/panels-wells.aspx">Panels and Wells</a>
-                                </li>
-                                <li>
-                                    <a href="../pages/buttons.aspx">Buttons</a>
-                                </li>
-                                <li>
-                                    <a href="../pages/notifications.aspx">Notifications</a>
-                                </li>
-                                <li>
-                                    <a href="../pages/typography.aspx">Typography</a>
-                                </li>
-                                <li>
-                                    <a href="../pages/icons.aspx"> Icons</a>
-                                </li>
-                                <li>
-                                    <a href="../pages/grid.aspx">Grid</a>
-                                </li>
-                            </ul>
-                            <!-- /.nav-second-level -->
-                        </li>
-                        <li>
-                            <a href="#"><i class="fa fa-sitemap fa-fw"></i> Multi-Level Dropdown<span class="fa arrow"></span></a>
-                            <ul class="nav nav-second-level">
-                                <li>
-                                    <a href="#">Second Level Item</a>
-                                </li>
-                                <li>
-                                    <a href="#">Second Level Item</a>
-                                </li>
-                                <li>
-                                    <a href="#">Third Level <span class="fa arrow"></span></a>
-                                    <ul class="nav nav-third-level">
-                                        <li>
-                                            <a href="#">Third Level Item</a>
-                                        </li>
-                                        <li>
-                                            <a href="#">Third Level Item</a>
-                                        </li>
-                                        <li>
-                                            <a href="#">Third Level Item</a>
-                                        </li>
-                                        <li>
-                                            <a href="#">Third Level Item</a>
-                                        </li>
-                                    </ul>
-                                    <!-- /.nav-third-level -->
-                                </li>
-                            </ul>
-                            <!-- /.nav-second-level -->
-                        </li>
-                        <li>
-                            <a href="#"><i class="fa fa-files-o fa-fw"></i> Sample Pages<span class="fa arrow"></span></a>
-                            <ul class="nav nav-second-level">
-                                <li>
-                                    <a href="../pages/blank.aspx">Blank Page</a>
-                                </li>
-                                <li>
-                                    <a href="../pages/login.aspx">Login Page</a>
-                                </li>
-                            </ul>
-                            <!-- /.nav-second-level -->
-                        </li>
-                    </ul>
-                </div>
-                <!-- /.sidebar-collapse -->
-            </div>
-            <!-- /.navbar-static-side -->
-        </nav>
-
         <div id="page-wrapper">
             <div class="row">
                 <div class="col-lg-12">
-                    <h1 class="page-header">Dashboard</h1>
+                    <h1 class="page-header">Nanyang Polytechnic</h1>
                 </div>
                 <!-- /.col-lg-12 -->
             </div>
-            <!-- /.row -->
-            <div class="row">
+            <div class ="row">
                 <div class="col-lg-3 col-md-6">
-                    <div class="panel panel-primary">
-                        <div class="panel-heading">
-                            <div class="row">
-                                <div class="col-xs-3">
-                                    <i class="fa fa-comments fa-5x"></i>
-                                </div>
-                                <div class="col-xs-9 text-right">
-                                    <div class="huge">26</div>
-                                    <div>New Comments!</div>
-                                </div>
-                            </div>
-                        </div>
-                        <a href="#">
-                            <div class="panel-footer">
-                                <span class="pull-left">View Details</span>
-                                <span class="pull-right"><i class="fa fa-arrow-circle-right"></i></span>
-                                <div class="clearfix"></div>
-                            </div>
-                        </a>
-                    </div>
+                    <div class="form-group">
+                                            <label>DateTime</label>
+                                            <input class="form-control">
+                                 
+                                        </div>
                 </div>
-                <div class="col-lg-3 col-md-6">
-                    <div class="panel panel-green">
-                        <div class="panel-heading">
-                            <div class="row">
-                                <div class="col-xs-3">
-                                    <i class="fa fa-tasks fa-5x"></i>
-                                </div>
-                                <div class="col-xs-9 text-right">
-                                    <div class="huge">12</div>
-                                    <div>New Tasks!</div>
-                                </div>
-                            </div>
-                        </div>
-                        <a href="#">
-                            <div class="panel-footer">
-                                <span class="pull-left">View Details</span>
-                                <span class="pull-right"><i class="fa fa-arrow-circle-right"></i></span>
-                                <div class="clearfix"></div>
-                            </div>
-                        </a>
-                    </div>
+                               <div class="col-lg-3 col-md-6">
+                     <div class="form-group">
+                                            <label>Room</label>
+                                            <select class="form-control">
+                                                <option>1</option>
+                                                <option>2</option>
+                                                <option>3</option>
+                                                <option>4</option>
+                                                <option>5</option>
+                                            </select>
+                                        </div>
                 </div>
-                <div class="col-lg-3 col-md-6">
-                    <div class="panel panel-yellow">
-                        <div class="panel-heading">
-                            <div class="row">
-                                <div class="col-xs-3">
-                                    <i class="fa fa-shopping-cart fa-5x"></i>
-                                </div>
-                                <div class="col-xs-9 text-right">
-                                    <div class="huge">124</div>
-                                    <div>New Orders!</div>
-                                </div>
-                            </div>
-                        </div>
-                        <a href="#">
-                            <div class="panel-footer">
-                                <span class="pull-left">View Details</span>
-                                <span class="pull-right"><i class="fa fa-arrow-circle-right"></i></span>
-                                <div class="clearfix"></div>
-                            </div>
-                        </a>
-                    </div>
+
+                                <div class="col-lg-3 col-md-6">
+                     <div class="form-group">
+                                            <label>Rack</label>
+                                            <select class="form-control">
+                                                <option>1</option>
+                                                <option>2</option>
+                                                <option>3</option>
+                                                <option>4</option>
+                                                <option>5</option>
+                                            </select>
+                                        </div>
                 </div>
-                <div class="col-lg-3 col-md-6">
-                    <div class="panel panel-red">
-                        <div class="panel-heading">
-                            <div class="row">
-                                <div class="col-xs-3">
-                                    <i class="fa fa-support fa-5x"></i>
-                                </div>
-                                <div class="col-xs-9 text-right">
-                                    <div class="huge">13</div>
-                                    <div>Support Tickets!</div>
-                                </div>
-                            </div>
-                        </div>
-                        <a href="#">
-                            <div class="panel-footer">
-                                <span class="pull-left">View Details</span>
-                                <span class="pull-right"><i class="fa fa-arrow-circle-right"></i></span>
-                                <div class="clearfix"></div>
-                            </div>
-                        </a>
-                    </div>
+                                <div class="col-lg-3 col-md-6">
+                     <div class="form-group">
+                                            <label>Measurement Type</label>
+                                            <select class="form-control">
+                                                <option>1</option>
+                                                <option>2</option>
+                                                <option>3</option>
+                                                <option>4</option>
+                                                <option>5</option>
+                                            </select>
+                                        </div>
                 </div>
+
+
             </div>
-            <!-- /.row -->
             <div class="row">
-                <div class="col-lg-8">
-                    <div class="panel panel-default">
-                        <div class="panel-heading">
-                            <i class="fa fa-bar-chart-o fa-fw"></i> Area Chart Example
-                            <div class="pull-right">
-                                <div class="btn-group">
-                                    <button type="button" class="btn btn-default btn-xs dropdown-toggle" data-toggle="dropdown">
-                                        Actions
-                                        <span class="caret"></span>
-                                    </button>
-                                    <ul class="dropdown-menu pull-right" role="menu">
-                                        <li><a href="#">Action</a>
-                                        </li>
-                                        <li><a href="#">Another action</a>
-                                        </li>
-                                        <li><a href="#">Something else here</a>
-                                        </li>
-                                        <li class="divider"></li>
-                                        <li><a href="#">Separated link</a>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- /.panel-heading -->
-                        <div class="panel-body">
-                            <div id="morris-area-chart"></div>
-                        </div>
-                        <!-- /.panel-body -->
-                    </div>
-                    <!-- /.panel -->
-                    <div class="panel panel-default">
-                        <div class="panel-heading">
-                            <i class="fa fa-bar-chart-o fa-fw"></i> Bar Chart Example
-                            <div class="pull-right">
-                                <div class="btn-group">
-                                    <button type="button" class="btn btn-default btn-xs dropdown-toggle" data-toggle="dropdown">
-                                        Actions
-                                        <span class="caret"></span>
-                                    </button>
-                                    <ul class="dropdown-menu pull-right" role="menu">
-                                        <li><a href="#">Action</a>
-                                        </li>
-                                        <li><a href="#">Another action</a>
-                                        </li>
-                                        <li><a href="#">Something else here</a>
-                                        </li>
-                                        <li class="divider"></li>
-                                        <li><a href="#">Separated link</a>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- /.panel-heading -->
+                <button type="button" class="btn btn-primary btn-lg btn-block">Block level button</button>
+
+            </div>              <!-- /. block button -->  
+            <div class="row">
+                        <!-- /.panel-heading -->            
                         <div class="panel-body">
                             <div class="row">
                                 <div class="col-lg-4">
@@ -534,10 +109,11 @@
                                         <table class="table table-bordered table-hover table-striped">
                                             <thead>
                                                 <tr>
-                                                    <th>#</th>
-                                                    <th>Date</th>
-                                                    <th>Time</th>
-                                                    <th>Amount</th>
+                                                    <th>DateTime</th>
+                                                    <th>Room</th>
+                                                    <th>Rack</th>
+                                                    <th>Measurement Type</th>
+                                                    <th>Value</th>
                                                 </tr>
                                             </thead>
                                             <tbody>
@@ -546,377 +122,102 @@
                                                     <td>10/21/2013</td>
                                                     <td>3:29 PM</td>
                                                     <td>$321.33</td>
+                                                    <td>22</td>
                                                 </tr>
                                                 <tr>
                                                     <td>3325</td>
                                                     <td>10/21/2013</td>
                                                     <td>3:20 PM</td>
                                                     <td>$234.34</td>
+                                                    <td>22</td>
                                                 </tr>
                                                 <tr>
                                                     <td>3324</td>
                                                     <td>10/21/2013</td>
                                                     <td>3:03 PM</td>
                                                     <td>$724.17</td>
+                                                    <td>22</td>
                                                 </tr>
                                                 <tr>
                                                     <td>3323</td>
                                                     <td>10/21/2013</td>
                                                     <td>3:00 PM</td>
                                                     <td>$23.71</td>
+                                                    <td>22</td>
                                                 </tr>
                                                 <tr>
                                                     <td>3322</td>
                                                     <td>10/21/2013</td>
                                                     <td>2:49 PM</td>
                                                     <td>$8345.23</td>
+                                                    <td>22</td>
                                                 </tr>
                                                 <tr>
                                                     <td>3321</td>
                                                     <td>10/21/2013</td>
                                                     <td>2:23 PM</td>
                                                     <td>$245.12</td>
+                                                    <td>22</td>
                                                 </tr>
                                                 <tr>
                                                     <td>3320</td>
                                                     <td>10/21/2013</td>
                                                     <td>2:15 PM</td>
                                                     <td>$5663.54</td>
+                                                    <td>22</td>
                                                 </tr>
                                                 <tr>
                                                     <td>3319</td>
                                                     <td>10/21/2013</td>
                                                     <td>2:13 PM</td>
                                                     <td>$943.45</td>
+                                                    <td>22</td>
                                                 </tr>
+                                                                                                <tr>
+                                                    <td>3326</td>
+                                                    <td>10/21/2013</td>
+                                                    <td>3:29 PM</td>
+                                                    <td>$321.33</td>
+                                                    <td>22</td>
+                                                </tr>
+
                                             </tbody>
                                         </table>
+
                                     </div>
                                     <!-- /.table-responsive -->
+
                                 </div>
-                                <!-- /.col-lg-4 (nested) -->
-                                <div class="col-lg-8">
-                                    <div id="morris-bar-chart"></div>
-                                </div>
-                                <!-- /.col-lg-8 (nested) -->
+                                <div class="col-lg-6">
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            Area Chart Example
+                        </div>
+                        <!-- /.panel-heading -->
+                        <div class="panel-body">
+                            <div id="morris-area-chart" style="position: relative; -webkit-tap-highlight-color: rgba(0, 0, 0, 0);"><svg height="342" version="1.1" width="472" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="overflow: hidden; position: relative;"><desc style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);">Created with Raphaël 2.2.0</desc><defs style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);"></defs><text x="49.515625" y="308" text-anchor="end" font-family="sans-serif" font-size="12px" stroke="none" fill="#888888" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0); text-anchor: end; font-family: sans-serif; font-size: 12px; font-weight: normal;" font-weight="normal"><tspan dy="4" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);">0</tspan></text><path fill="none" stroke="#aaaaaa" d="M62.015625,308H446.5" stroke-width="0.5" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);"></path><text x="49.515625" y="237.25" text-anchor="end" font-family="sans-serif" font-size="12px" stroke="none" fill="#888888" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0); text-anchor: end; font-family: sans-serif; font-size: 12px; font-weight: normal;" font-weight="normal"><tspan dy="4" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);">7,500</tspan></text><path fill="none" stroke="#aaaaaa" d="M62.015625,237.25H446.5" stroke-width="0.5" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);"></path><text x="49.515625" y="166.5" text-anchor="end" font-family="sans-serif" font-size="12px" stroke="none" fill="#888888" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0); text-anchor: end; font-family: sans-serif; font-size: 12px; font-weight: normal;" font-weight="normal"><tspan dy="4" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);">15,000</tspan></text><path fill="none" stroke="#aaaaaa" d="M62.015625,166.5H446.5" stroke-width="0.5" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);"></path><text x="49.515625" y="95.75" text-anchor="end" font-family="sans-serif" font-size="12px" stroke="none" fill="#888888" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0); text-anchor: end; font-family: sans-serif; font-size: 12px; font-weight: normal;" font-weight="normal"><tspan dy="4" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);">22,500</tspan></text><path fill="none" stroke="#aaaaaa" d="M62.015625,95.75H446.5" stroke-width="0.5" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);"></path><text x="49.515625" y="25" text-anchor="end" font-family="sans-serif" font-size="12px" stroke="none" fill="#888888" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0); text-anchor: end; font-family: sans-serif; font-size: 12px; font-weight: normal;" font-weight="normal"><tspan dy="4" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);">30,000</tspan></text><path fill="none" stroke="#aaaaaa" d="M62.015625,25H446.5" stroke-width="0.5" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);"></path><text x="375.4895200486027" y="320.5" text-anchor="middle" font-family="sans-serif" font-size="12px" stroke="none" fill="#888888" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0); text-anchor: middle; font-family: sans-serif; font-size: 12px; font-weight: normal;" font-weight="normal" transform="matrix(1,0,0,1,0,7)"><tspan dy="4" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);">2012</tspan></text><text x="204.9709333232078" y="320.5" text-anchor="middle" font-family="sans-serif" font-size="12px" stroke="none" fill="#888888" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0); text-anchor: middle; font-family: sans-serif; font-size: 12px; font-weight: normal;" font-weight="normal" transform="matrix(1,0,0,1,0,7)"><tspan dy="4" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);">2011</tspan></text><path fill="#7cb57c" stroke="none" d="M62.015625,257.8807C72.76063183475091,252.69236666666666,94.25064550425273,241.9253958333333,104.99565233900364,237.12736666666666C115.74065917375455,232.3293375,137.23067284325637,226.06474717668488,147.97567967800728,219.49646666666666C158.60389296020657,212.9995805100182,179.8603195246051,186.80528908839776,190.4885328068044,184.86669999999998C200.999952536452,182.94941408839776,222.02279199574727,202.66302023809524,232.5342117253949,204.07296666666667C243.2792185601458,205.51424523809524,264.7692322296476,195.3117583333333,275.51423906439857,196.27159999999998C286.2592458991495,197.23144166666665,307.74925956865127,228.79010418943534,318.4942664034022,211.7517C329.1224796856015,194.89849585610202,350.37890625,68.92631666666665,361.0071195321993,60.705166666666656C371.63533281439857,52.484016666666655,392.8917593787971,133.9280789162113,403.51997266099636,145.9825C414.2649794957473,158.16938724954463,435.75499316524906,154.748425,446.5,157.6704L446.5,308L62.015625,308Z" fill-opacity="1" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0); fill-opacity: 1;"></path><path fill="none" stroke="#4da74d" d="M62.015625,257.8807C72.76063183475091,252.69236666666666,94.25064550425273,241.9253958333333,104.99565233900364,237.12736666666666C115.74065917375455,232.3293375,137.23067284325637,226.06474717668488,147.97567967800728,219.49646666666666C158.60389296020657,212.9995805100182,179.8603195246051,186.80528908839776,190.4885328068044,184.86669999999998C200.999952536452,182.94941408839776,222.02279199574727,202.66302023809524,232.5342117253949,204.07296666666667C243.2792185601458,205.51424523809524,264.7692322296476,195.3117583333333,275.51423906439857,196.27159999999998C286.2592458991495,197.23144166666665,307.74925956865127,228.79010418943534,318.4942664034022,211.7517C329.1224796856015,194.89849585610202,350.37890625,68.92631666666665,361.0071195321993,60.705166666666656C371.63533281439857,52.484016666666655,392.8917593787971,133.9280789162113,403.51997266099636,145.9825C414.2649794957473,158.16938724954463,435.75499316524906,154.748425,446.5,157.6704" stroke-width="3" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);"></path><circle cx="62.015625" cy="257.8807" r="2" fill="#4da74d" stroke="#ffffff" stroke-width="1" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);"></circle><circle cx="104.99565233900364" cy="237.12736666666666" r="2" fill="#4da74d" stroke="#ffffff" stroke-width="1" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);"></circle><circle cx="147.97567967800728" cy="219.49646666666666" r="2" fill="#4da74d" stroke="#ffffff" stroke-width="1" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);"></circle><circle cx="190.4885328068044" cy="184.86669999999998" r="2" fill="#4da74d" stroke="#ffffff" stroke-width="1" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);"></circle><circle cx="232.5342117253949" cy="204.07296666666667" r="2" fill="#4da74d" stroke="#ffffff" stroke-width="1" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);"></circle><circle cx="275.51423906439857" cy="196.27159999999998" r="2" fill="#4da74d" stroke="#ffffff" stroke-width="1" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);"></circle><circle cx="318.4942664034022" cy="211.7517" r="2" fill="#4da74d" stroke="#ffffff" stroke-width="1" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);"></circle><circle cx="361.0071195321993" cy="60.705166666666656" r="2" fill="#4da74d" stroke="#ffffff" stroke-width="1" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);"></circle><circle cx="403.51997266099636" cy="145.9825" r="2" fill="#4da74d" stroke="#ffffff" stroke-width="1" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);"></circle><circle cx="446.5" cy="157.6704" r="2" fill="#4da74d" stroke="#ffffff" stroke-width="1" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);"></circle><path fill="#a8b4bd" stroke="none" d="M62.015625,282.8507333333333C72.76063183475091,277.1765833333333,94.25064550425273,265.12432083333334,104.99565233900364,260.15413333333333C115.74065917375455,255.18394583333333,137.23067284325637,245.80665191256827,147.97567967800728,243.0892333333333C158.60389296020657,240.4013519125683,179.8603195246051,240.71814415285453,190.4885328068044,238.53293333333335C200.999952536452,236.3717358195212,222.02279199574727,228.73457664835163,232.5342117253949,225.7036C243.2792185601458,222.6052683150183,264.7692322296476,213.8871708333333,275.51423906439857,214.01569999999998C286.2592458991495,214.14422916666663,307.74925956865127,239.86483752276865,318.4942664034022,226.73183333333333C329.1224796856015,213.74157918943533,350.37890625,117.22498333333331,361.0071195321993,109.52266666666665C371.63533281439857,101.82034999999999,392.8917593787971,157.02737399817852,403.51997266099636,165.1133C414.2649794957473,173.28808233151184,435.75499316524906,172.20245,446.5,174.5655L446.5,308L62.015625,308Z" fill-opacity="1" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0); fill-opacity: 1;"></path><path fill="none" stroke="#7a92a3" d="M62.015625,282.8507333333333C72.76063183475091,277.1765833333333,94.25064550425273,265.12432083333334,104.99565233900364,260.15413333333333C115.74065917375455,255.18394583333333,137.23067284325637,245.80665191256827,147.97567967800728,243.0892333333333C158.60389296020657,240.4013519125683,179.8603195246051,240.71814415285453,190.4885328068044,238.53293333333335C200.999952536452,236.3717358195212,222.02279199574727,228.73457664835163,232.5342117253949,225.7036C243.2792185601458,222.6052683150183,264.7692322296476,213.8871708333333,275.51423906439857,214.01569999999998C286.2592458991495,214.14422916666663,307.74925956865127,239.86483752276865,318.4942664034022,226.73183333333333C329.1224796856015,213.74157918943533,350.37890625,117.22498333333331,361.0071195321993,109.52266666666665C371.63533281439857,101.82034999999999,392.8917593787971,157.02737399817852,403.51997266099636,165.1133C414.2649794957473,173.28808233151184,435.75499316524906,172.20245,446.5,174.5655" stroke-width="3" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);"></path><circle cx="62.015625" cy="282.8507333333333" r="2" fill="#7a92a3" stroke="#ffffff" stroke-width="1" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);"></circle><circle cx="104.99565233900364" cy="260.15413333333333" r="2" fill="#7a92a3" stroke="#ffffff" stroke-width="1" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);"></circle><circle cx="147.97567967800728" cy="243.0892333333333" r="2" fill="#7a92a3" stroke="#ffffff" stroke-width="1" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);"></circle><circle cx="190.4885328068044" cy="238.53293333333335" r="2" fill="#7a92a3" stroke="#ffffff" stroke-width="1" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);"></circle><circle cx="232.5342117253949" cy="225.7036" r="2" fill="#7a92a3" stroke="#ffffff" stroke-width="1" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);"></circle><circle cx="275.51423906439857" cy="214.01569999999998" r="2" fill="#7a92a3" stroke="#ffffff" stroke-width="1" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);"></circle><circle cx="318.4942664034022" cy="226.73183333333333" r="2" fill="#7a92a3" stroke="#ffffff" stroke-width="1" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);"></circle><circle cx="361.0071195321993" cy="109.52266666666665" r="2" fill="#7a92a3" stroke="#ffffff" stroke-width="1" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);"></circle><circle cx="403.51997266099636" cy="165.1133" r="2" fill="#7a92a3" stroke="#ffffff" stroke-width="1" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);"></circle><circle cx="446.5" cy="174.5655" r="2" fill="#7a92a3" stroke="#ffffff" stroke-width="1" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);"></circle><path fill="#2677b5" stroke="none" d="M62.015625,282.8507333333333C72.76063183475091,282.5866,94.25064550425273,284.44260833333334,104.99565233900364,281.7942C115.74065917375455,279.14579166666664,137.23067284325637,262.8360351548269,147.97567967800728,261.66346666666664C158.60389296020657,260.50364348816026,179.8603195246051,274.71505662983424,190.4885328068044,272.4646333333333C200.999952536452,270.2389399631676,222.02279199574727,245.97829532967035,232.5342117253949,243.75900000000001C243.2792185601458,241.490386996337,264.7692322296476,252.16645833333334,275.51423906439857,254.513C286.2592458991495,256.85954166666664,307.74925956865127,273.67962604735885,318.4942664034022,262.53133333333335C329.1224796856015,251.50421771402551,350.37890625,172.7295375,361.0071195321993,165.81136666666666C371.63533281439857,158.89319583333332,392.8917593787971,199.3979123406193,403.51997266099636,207.18596666666667C414.2649794957473,215.05960400728597,435.75499316524906,223.14009166666668,446.5,228.45813333333334L446.5,308L62.015625,308Z" fill-opacity="1" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0); fill-opacity: 1;"></path><path fill="none" stroke="#0b62a4" d="M62.015625,282.8507333333333C72.76063183475091,282.5866,94.25064550425273,284.44260833333334,104.99565233900364,281.7942C115.74065917375455,279.14579166666664,137.23067284325637,262.8360351548269,147.97567967800728,261.66346666666664C158.60389296020657,260.50364348816026,179.8603195246051,274.71505662983424,190.4885328068044,272.4646333333333C200.999952536452,270.2389399631676,222.02279199574727,245.97829532967035,232.5342117253949,243.75900000000001C243.2792185601458,241.490386996337,264.7692322296476,252.16645833333334,275.51423906439857,254.513C286.2592458991495,256.85954166666664,307.74925956865127,273.67962604735885,318.4942664034022,262.53133333333335C329.1224796856015,251.50421771402551,350.37890625,172.7295375,361.0071195321993,165.81136666666666C371.63533281439857,158.89319583333332,392.8917593787971,199.3979123406193,403.51997266099636,207.18596666666667C414.2649794957473,215.05960400728597,435.75499316524906,223.14009166666668,446.5,228.45813333333334" stroke-width="3" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);"></path><circle cx="62.015625" cy="282.8507333333333" r="2" fill="#0b62a4" stroke="#ffffff" stroke-width="1" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);"></circle><circle cx="104.99565233900364" cy="281.7942" r="2" fill="#0b62a4" stroke="#ffffff" stroke-width="1" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);"></circle><circle cx="147.97567967800728" cy="261.66346666666664" r="2" fill="#0b62a4" stroke="#ffffff" stroke-width="1" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);"></circle><circle cx="190.4885328068044" cy="272.4646333333333" r="2" fill="#0b62a4" stroke="#ffffff" stroke-width="1" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);"></circle><circle cx="232.5342117253949" cy="243.75900000000001" r="2" fill="#0b62a4" stroke="#ffffff" stroke-width="1" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);"></circle><circle cx="275.51423906439857" cy="254.513" r="2" fill="#0b62a4" stroke="#ffffff" stroke-width="1" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);"></circle><circle cx="318.4942664034022" cy="262.53133333333335" r="2" fill="#0b62a4" stroke="#ffffff" stroke-width="1" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);"></circle><circle cx="361.0071195321993" cy="165.81136666666666" r="2" fill="#0b62a4" stroke="#ffffff" stroke-width="1" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);"></circle><circle cx="403.51997266099636" cy="207.18596666666667" r="2" fill="#0b62a4" stroke="#ffffff" stroke-width="1" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);"></circle><circle cx="446.5" cy="228.45813333333334" r="2" fill="#0b62a4" stroke="#ffffff" stroke-width="1" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);"></circle></svg><div class="morris-hover morris-default-style" style="left: 347.489px; top: 103px; display: none;"><div class="morris-hover-row-label">2012 Q1</div><div class="morris-hover-point" style="color: #0b62a4">
+  iPhone:
+  10,687
+</div><div class="morris-hover-point" style="color: #7A92A3">
+  iPad:
+  4,460
+</div><div class="morris-hover-point" style="color: #4da74d">
+  iPod Touch:
+  2,028
+</div></div></div>
+                        </div>
+                        <!-- /.panel-body -->
+                    </div>
+                    <!-- /.panel -->
+                </div>
                             </div>
                             <!-- /.row -->
                         </div>
                         <!-- /.panel-body -->
+
                     </div>
-                    <!-- /.panel -->
-                    <div class="panel panel-default">
-                        <div class="panel-heading">
-                            <i class="fa fa-clock-o fa-fw"></i> Responsive Timeline
-                        </div>
-                        <!-- /.panel-heading -->
-                        <div class="panel-body">
-                            <ul class="timeline">
-                                <li>
-                                    <div class="timeline-badge"><i class="fa fa-check"></i>
-                                    </div>
-                                    <div class="timeline-panel">
-                                        <div class="timeline-heading">
-                                            <h4 class="timeline-title">Lorem ipsum dolor</h4>
-                                            <p><small class="text-muted"><i class="fa fa-clock-o"></i> 11 hours ago via Twitter</small>
-                                            </p>
-                                        </div>
-                                        <div class="timeline-body">
-                                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero laboriosam dolor perspiciatis omnis exercitationem. Beatae, officia pariatur? Est cum veniam excepturi. Maiores praesentium, porro voluptas suscipit facere rem dicta, debitis.</p>
-                                        </div>
-                                    </div>
-                                </li>
-                                <li class="timeline-inverted">
-                                    <div class="timeline-badge warning"><i class="fa fa-credit-card"></i>
-                                    </div>
-                                    <div class="timeline-panel">
-                                        <div class="timeline-heading">
-                                            <h4 class="timeline-title">Lorem ipsum dolor</h4>
-                                        </div>
-                                        <div class="timeline-body">
-                                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem dolorem quibusdam, tenetur commodi provident cumque magni voluptatem libero, quis rerum. Fugiat esse debitis optio, tempore. Animi officiis alias, officia repellendus.</p>
-                                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium maiores odit qui est tempora eos, nostrum provident explicabo dignissimos debitis vel! Adipisci eius voluptates, ad aut recusandae minus eaque facere.</p>
-                                        </div>
-                                    </div>
-                                </li>
-                                <li>
-                                    <div class="timeline-badge danger"><i class="fa fa-bomb"></i>
-                                    </div>
-                                    <div class="timeline-panel">
-                                        <div class="timeline-heading">
-                                            <h4 class="timeline-title">Lorem ipsum dolor</h4>
-                                        </div>
-                                        <div class="timeline-body">
-                                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus numquam facilis enim eaque, tenetur nam id qui vel velit similique nihil iure molestias aliquam, voluptatem totam quaerat, magni commodi quisquam.</p>
-                                        </div>
-                                    </div>
-                                </li>
-                                <li class="timeline-inverted">
-                                    <div class="timeline-panel">
-                                        <div class="timeline-heading">
-                                            <h4 class="timeline-title">Lorem ipsum dolor</h4>
-                                        </div>
-                                        <div class="timeline-body">
-                                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptates est quaerat asperiores sapiente, eligendi, nihil. Itaque quos, alias sapiente rerum quas odit! Aperiam officiis quidem delectus libero, omnis ut debitis!</p>
-                                        </div>
-                                    </div>
-                                </li>
-                                <li>
-                                    <div class="timeline-badge info"><i class="fa fa-save"></i>
-                                    </div>
-                                    <div class="timeline-panel">
-                                        <div class="timeline-heading">
-                                            <h4 class="timeline-title">Lorem ipsum dolor</h4>
-                                        </div>
-                                        <div class="timeline-body">
-                                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis minus modi quam ipsum alias at est molestiae excepturi delectus nesciunt, quibusdam debitis amet, beatae consequuntur impedit nulla qui! Laborum, atque.</p>
-                                            <hr>
-                                            <div class="btn-group">
-                                                <button type="button" class="btn btn-primary btn-sm dropdown-toggle" data-toggle="dropdown">
-                                                    <i class="fa fa-gear"></i> <span class="caret"></span>
-                                                </button>
-                                                <ul class="dropdown-menu" role="menu">
-                                                    <li><a href="#">Action</a>
-                                                    </li>
-                                                    <li><a href="#">Another action</a>
-                                                    </li>
-                                                    <li><a href="#">Something else here</a>
-                                                    </li>
-                                                    <li class="divider"></li>
-                                                    <li><a href="#">Separated link</a>
-                                                    </li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </li>
-                                <li>
-                                    <div class="timeline-panel">
-                                        <div class="timeline-heading">
-                                            <h4 class="timeline-title">Lorem ipsum dolor</h4>
-                                        </div>
-                                        <div class="timeline-body">
-                                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi fuga odio quibusdam. Iure expedita, incidunt unde quis nam! Quod, quisquam. Officia quam qui adipisci quas consequuntur nostrum sequi. Consequuntur, commodi.</p>
-                                        </div>
-                                    </div>
-                                </li>
-                                <li class="timeline-inverted">
-                                    <div class="timeline-badge success"><i class="fa fa-graduation-cap"></i>
-                                    </div>
-                                    <div class="timeline-panel">
-                                        <div class="timeline-heading">
-                                            <h4 class="timeline-title">Lorem ipsum dolor</h4>
-                                        </div>
-                                        <div class="timeline-body">
-                                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt obcaecati, quaerat tempore officia voluptas debitis consectetur culpa amet, accusamus dolorum fugiat, animi dicta aperiam, enim incidunt quisquam maxime neque eaque.</p>
-                                        </div>
-                                    </div>
-                                </li>
-                            </ul>
-                        </div>
-                        <!-- /.panel-body -->
-                    </div>
-                    <!-- /.panel -->
-                </div>
-                <!-- /.col-lg-8 -->
-                <div class="col-lg-4">
-                    <div class="panel panel-default">
-                        <div class="panel-heading">
-                            <i class="fa fa-bell fa-fw"></i> Notifications Panel
-                        </div>
-                        <!-- /.panel-heading -->
-                        <div class="panel-body">
-                            <div class="list-group">
-                                <a href="#" class="list-group-item">
-                                    <i class="fa fa-comment fa-fw"></i> New Comment
-                                    <span class="pull-right text-muted small"><em>4 minutes ago</em>
-                                    </span>
-                                </a>
-                                <a href="#" class="list-group-item">
-                                    <i class="fa fa-twitter fa-fw"></i> 3 New Followers
-                                    <span class="pull-right text-muted small"><em>12 minutes ago</em>
-                                    </span>
-                                </a>
-                                <a href="#" class="list-group-item">
-                                    <i class="fa fa-envelope fa-fw"></i> Message Sent
-                                    <span class="pull-right text-muted small"><em>27 minutes ago</em>
-                                    </span>
-                                </a>
-                                <a href="#" class="list-group-item">
-                                    <i class="fa fa-tasks fa-fw"></i> New Task
-                                    <span class="pull-right text-muted small"><em>43 minutes ago</em>
-                                    </span>
-                                </a>
-                                <a href="#" class="list-group-item">
-                                    <i class="fa fa-upload fa-fw"></i> Server Rebooted
-                                    <span class="pull-right text-muted small"><em>11:32 AM</em>
-                                    </span>
-                                </a>
-                                <a href="#" class="list-group-item">
-                                    <i class="fa fa-bolt fa-fw"></i> Server Crashed!
-                                    <span class="pull-right text-muted small"><em>11:13 AM</em>
-                                    </span>
-                                </a>
-                                <a href="#" class="list-group-item">
-                                    <i class="fa fa-warning fa-fw"></i> Server Not Responding
-                                    <span class="pull-right text-muted small"><em>10:57 AM</em>
-                                    </span>
-                                </a>
-                                <a href="#" class="list-group-item">
-                                    <i class="fa fa-shopping-cart fa-fw"></i> New Order Placed
-                                    <span class="pull-right text-muted small"><em>9:49 AM</em>
-                                    </span>
-                                </a>
-                                <a href="#" class="list-group-item">
-                                    <i class="fa fa-money fa-fw"></i> Payment Received
-                                    <span class="pull-right text-muted small"><em>Yesterday</em>
-                                    </span>
-                                </a>
-                            </div>
-                            <!-- /.list-group -->
-                            <a href="#" class="btn btn-default btn-block">View All Alerts</a>
-                        </div>
-                        <!-- /.panel-body -->
-                    </div>
-                    <!-- /.panel -->
-                    <div class="panel panel-default">
-                        <div class="panel-heading">
-                            <i class="fa fa-bar-chart-o fa-fw"></i> Donut Chart Example
-                        </div>
-                        <div class="panel-body">
-                            <div id="morris-donut-chart"></div>
-                            <a href="#" class="btn btn-default btn-block">View Details</a>
-                        </div>
-                        <!-- /.panel-body -->
-                    </div>
-                    <!-- /.panel -->
-                    <div class="chat-panel panel panel-default">
-                        <div class="panel-heading">
-                            <i class="fa fa-comments fa-fw"></i> Chat
-                            <div class="btn-group pull-right">
-                                <button type="button" class="btn btn-default btn-xs dropdown-toggle" data-toggle="dropdown">
-                                    <i class="fa fa-chevron-down"></i>
-                                </button>
-                                <ul class="dropdown-menu slidedown">
-                                    <li>
-                                        <a href="#">
-                                            <i class="fa fa-refresh fa-fw"></i> Refresh
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="#">
-                                            <i class="fa fa-check-circle fa-fw"></i> Available
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="#">
-                                            <i class="fa fa-times fa-fw"></i> Busy
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="#">
-                                            <i class="fa fa-clock-o fa-fw"></i> Away
-                                        </a>
-                                    </li>
-                                    <li class="divider"></li>
-                                    <li>
-                                        <a href="#">
-                                            <i class="fa fa-sign-out fa-fw"></i> Sign Out
-                                        </a>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                        <!-- /.panel-heading -->
-                        <div class="panel-body">
-                            <ul class="chat">
-                                <li class="left clearfix">
-                                    <span class="chat-img pull-left">
-                                        <img src="http://placehold.it/50/55C1E7/fff" alt="User Avatar" class="img-circle" />
-                                    </span>
-                                    <div class="chat-body clearfix">
-                                        <div class="header">
-                                            <strong class="primary-font">Jack Sparrow</strong>
-                                            <small class="pull-right text-muted">
-                                                <i class="fa fa-clock-o fa-fw"></i> 12 mins ago
-                                            </small>
-                                        </div>
-                                        <p>
-                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur bibendum ornare dolor, quis ullamcorper ligula sodales.
-                                        </p>
-                                    </div>
-                                </li>
-                                <li class="right clearfix">
-                                    <span class="chat-img pull-right">
-                                        <img src="http://placehold.it/50/FA6F57/fff" alt="User Avatar" class="img-circle" />
-                                    </span>
-                                    <div class="chat-body clearfix">
-                                        <div class="header">
-                                            <small class=" text-muted">
-                                                <i class="fa fa-clock-o fa-fw"></i> 13 mins ago</small>
-                                            <strong class="pull-right primary-font">Bhaumik Patel</strong>
-                                        </div>
-                                        <p>
-                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur bibendum ornare dolor, quis ullamcorper ligula sodales.
-                                        </p>
-                                    </div>
-                                </li>
-                                <li class="left clearfix">
-                                    <span class="chat-img pull-left">
-                                        <img src="http://placehold.it/50/55C1E7/fff" alt="User Avatar" class="img-circle" />
-                                    </span>
-                                    <div class="chat-body clearfix">
-                                        <div class="header">
-                                            <strong class="primary-font">Jack Sparrow</strong>
-                                            <small class="pull-right text-muted">
-                                                <i class="fa fa-clock-o fa-fw"></i> 14 mins ago</small>
-                                        </div>
-                                        <p>
-                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur bibendum ornare dolor, quis ullamcorper ligula sodales.
-                                        </p>
-                                    </div>
-                                </li>
-                                <li class="right clearfix">
-                                    <span class="chat-img pull-right">
-                                        <img src="http://placehold.it/50/FA6F57/fff" alt="User Avatar" class="img-circle" />
-                                    </span>
-                                    <div class="chat-body clearfix">
-                                        <div class="header">
-                                            <small class=" text-muted">
-                                                <i class="fa fa-clock-o fa-fw"></i> 15 mins ago</small>
-                                            <strong class="pull-right primary-font">Bhaumik Patel</strong>
-                                        </div>
-                                        <p>
-                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur bibendum ornare dolor, quis ullamcorper ligula sodales.
-                                        </p>
-                                    </div>
-                                </li>
-                            </ul>
-                        </div>
-                        <!-- /.panel-body -->
-                        <div class="panel-footer">
-                            <div class="input-group">
-                                <input id="btn-input" type="text" class="form-control input-sm" placeholder="Type your message here..." />
-                                <span class="input-group-btn">
-                                    <button class="btn btn-warning btn-sm" id="btn-chat">
-                                        Send
-                                    </button>
-                                </span>
-                            </div>
-                        </div>
-                        <!-- /.panel-footer -->
-                    </div>
-                    <!-- /.panel .chat-panel -->
-                </div>
-                <!-- /.col-lg-4 -->
             </div>
-            <!-- /.row -->
         </div>
-        <!-- /#page-wrapper -->
-
-    </div>
-    <!-- /#wrapper -->
-
     <!-- jQuery -->
     <script src="../vendor/jquery/jquery.min.js"></script>
 
@@ -927,7 +228,7 @@
     <script src="../vendor/metisMenu/metisMenu.min.js"></script>
 
     <!-- Morris Charts JavaScript -->
-    <script src="../vendor/raphael/raphael.min.js"></script>
+    <script src="../vendor/raphael.min.js"></script>
     <script src="../vendor/morrisjs/morris.min.js"></script>
     <script src="../data/morris-data.js"></script>
 
